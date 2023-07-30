@@ -57,6 +57,11 @@
 
 using coreConsoleApplication;
 
-student student =  new student();
-student.acceptDetails();
-student.displayDetails();
+//Student student =  new Student();
+//student.displayDetails();
+
+SavingAccount savingAccount = new SavingAccount();
+
+savingAccount.deposit();
+savingAccount.withdraw();
+savingAccount.balance();
