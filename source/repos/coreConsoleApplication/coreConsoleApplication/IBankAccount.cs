@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace coreConsoleApplication
 {
-    public abstract class BankAccount
+    interface IBankAccount
     {
-
+        void deposit();
+        void withdraw();
+        void balance();
     }
-
-    public class SavingAccount : BankAccount
+    public class savingAcc : IBankAccount
     {
         public void balance()
         {
@@ -28,6 +29,4 @@ namespace coreConsoleApplication
             Console.WriteLine("Withdraw from saving Account");
         }
     }
-
-
 }
