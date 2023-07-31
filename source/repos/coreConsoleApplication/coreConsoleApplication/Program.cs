@@ -60,8 +60,13 @@ using coreConsoleApplication;
 //Student student =  new Student();
 //student.displayDetails();
 
-SavingAccount savingAccount = new SavingAccount();
+/*SavingAccount savingAccount = new SavingAccount();
 
 savingAccount.deposit();
 savingAccount.withdraw();
-savingAccount.balance();
+savingAccount.balance();*/
+
+Console.WriteLine(Calculate.increment());
+Console.WriteLine(Calculate.increment());
+Console.WriteLine(Calculate.increment());
+Console.WriteLine(Calculate.decrement());
