@@ -71,5 +71,17 @@ savingAccount.balance();*/
 //Console.WriteLine(Calculate.increment());
 //Console.WriteLine(Calculate.decrement());
 
-var employee = new Employee();
-employee.DisplayDetials();
+//var employee = new Employee();
+//employee.DisplayDetials();
+
+StringIndexerType stringIndexerType = new StringIndexerType();
+
+stringIndexerType[0] = "String One";
+stringIndexerType[1] = "String Two";
+stringIndexerType[2] = "String Three";
+stringIndexerType[3] = "String Four";
+
+for (int i = 0; i< 10; i++)
+{
+    Console.WriteLine(stringIndexerType[i]);
+}
