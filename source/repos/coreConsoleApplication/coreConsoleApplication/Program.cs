@@ -66,7 +66,10 @@ savingAccount.deposit();
 savingAccount.withdraw();
 savingAccount.balance();*/
 
-Console.WriteLine(Calculate.increment());
-Console.WriteLine(Calculate.increment());
-Console.WriteLine(Calculate.increment());
-Console.WriteLine(Calculate.decrement());
+//Console.WriteLine(Calculate.increment());
+//Console.WriteLine(Calculate.increment());
+//Console.WriteLine(Calculate.increment());
+//Console.WriteLine(Calculate.decrement());
+
+var employee = new Employee();
+employee.DisplayDetials();
