@@ -89,6 +89,14 @@ savingAccount.balance();*/
 //EnumDemo enumDemo = new EnumDemo();
 //enumDemo.display();
 
-Calculation calculation = new Calculation();
-calculation.calculate(10, 2);
+//Calculation calculation = new Calculation();
+//calculation.calculate(10, 2);
 
+var obj = new
+{
+    firstName = "King",
+    lastName = "Kochhar",
+    salary = 12000
+};
+
+Console.WriteLine(obj.firstName);
