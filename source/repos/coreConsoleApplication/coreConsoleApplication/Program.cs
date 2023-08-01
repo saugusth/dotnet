@@ -92,11 +92,22 @@ savingAccount.balance();*/
 //Calculation calculation = new Calculation();
 //calculation.calculate(10, 2);
 
-var obj = new
-{
-    firstName = "King",
-    lastName = "Kochhar",
-    salary = 12000
-};
+//var obj = new
+//{
+//    firstName = "King",
+//    lastName = "Kochhar",
+//    salary = 12000
+//};
 
-Console.WriteLine(obj.firstName);
+//Console.WriteLine(obj.firstName);
+
+CalculatorDelegate c1 = new CalculatorDelegate(DelegateExample.addition);
+
+
+CalculatorDelegate c2 = new CalculatorDelegate(DelegateExample.multiplication);
+
+c1(100);
+Console.WriteLine(DelegateExample.getNumber());
+
+c1(200);
+Console.WriteLine(DelegateExample.getNumber());
