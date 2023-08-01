@@ -74,14 +74,17 @@ savingAccount.balance();*/
 //var employee = new Employee();
 //employee.DisplayDetials();
 
-StringIndexerType stringIndexerType = new StringIndexerType();
+//StringIndexerType stringIndexerType = new StringIndexerType();
 
-stringIndexerType[0] = "String One";
-stringIndexerType[1] = "String Two";
-stringIndexerType[2] = "String Three";
-stringIndexerType[3] = "String Four";
+//stringIndexerType[0] = "String One";
+//stringIndexerType[1] = "String Two";
+//stringIndexerType[2] = "String Three";
+//stringIndexerType[3] = "String Four";
 
-for (int i = 0; i< 10; i++)
-{
-    Console.WriteLine(stringIndexerType[i]);
-}
+//for (int i = 0; i< 10; i++)
+//{
+//    Console.WriteLine(stringIndexerType[i]);
+//}
+
+EnumDemo enumDemo = new EnumDemo();
+enumDemo.display();
