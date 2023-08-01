@@ -86,5 +86,8 @@ savingAccount.balance();*/
 //    Console.WriteLine(stringIndexerType[i]);
 //}
 
-EnumDemo enumDemo = new EnumDemo();
-enumDemo.display();
+//EnumDemo enumDemo = new EnumDemo();
+//enumDemo.display();
+
+Calculation calculation = new Calculation();
+calculation.calculate(10, 2);
